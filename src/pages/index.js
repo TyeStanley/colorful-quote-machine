@@ -1,4 +1,7 @@
+import { useState } from 'react'
 import Head from 'next/head'
+import quotes from '../assets/quotes.json'
+
 
 export default function Home() {
   return (
