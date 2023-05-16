@@ -18,23 +18,29 @@
   height: 200px;
   background-color: #f7f7f7;
   border-radius: 5px;
-  border: 1px solid #FFF;
+  border: 7px solid #FFF;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   padding: 20px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   color: #494949;
+  position: relative;
 }
 
 #text {
   text-align: center;
   text-shadow: 2px 2px 4px #f7f7f7;
+  margin-top: 15px;
+  font-size: 1.5rem;
 }
 
 #author {
-  text-align: center;
-  font-size: 1.2rem;
+  text-align: right;
+  font-size: 1.1rem;
+  position: relative;
+  right: 25px;
+  bottom: 10px;
 }
 
 .buttons-wrapper {
@@ -53,7 +59,7 @@ button {
   background: none;
   cursor: pointer;
   outline: none;
-  padding: 10px 5px;
+  padding: 5px 5px;
   margin: 5px;
   border: 1px solid #494949;
   border-radius: 5px;
