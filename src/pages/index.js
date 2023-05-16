@@ -1,9 +1,24 @@
 import { useState } from 'react'
 import Head from 'next/head'
 import quotes from '../assets/quotes.json'
+const colorArr = ["#ffb3ba", "#ffdfba", "#ffffba", "#baffc9", "#bae1ff"]
 
 
 export default function Home() {
+  const [quote, setQuote] = useState(quotes[0])
+  const [bgColor, setBgColor] = useState(colorArr[0])
+
+  const randomQuote = () => {
+    const randomNum = Math.floor(Math.random() * quotes.length)
+    const randomColor = Math.floor(Math.random() * colorArr.length)
+
+    if (quotes[randomNum] === quote || colorArr[randomColor] === bgColor) {
+      randomQuote()
+    } else {
+      setQuote(quotes[randomNum])
+      setBgColor(colorArr[randomColor])
+    }
+  }
   return (
     <>
       <Head>
@@ -20,7 +35,7 @@ export default function Home() {
             <a href="https://twitter.com/intent/tweet" id="tweet-quote" target="_blank" rel="noreferrer">
               <button>Tweet Quote</button>
             </a>
-            <button id="new-quote">
+            <button onClick={randomQuote} id="new-quote">
               New Quote
             </button>
           </div>
