@@ -1,18 +1,12 @@
 # Colorful Quote Machine
 
-The Colorful Quote Machine is a delightful application that generates and displays inspirational quotes to uplift your spirits and
-provide a daily dose of motivation. With a sleek and user-friendly interface, this quote machine offers an enjoyable experience
-for users seeking a little extra inspiration in their day.
+The Colorful Quote Machine is a delightful application that generates and displays inspirational quotes to uplift your spirits and provide a daily dose of motivation. With a sleek and user-friendly interface, this quote machine offers an enjoyable experience for users seeking a little extra inspiration in their day.
 
 ## Features
 
-- Random Quote Generation: The Colorful Quote Machine utilizes a vast collection of quotes to generate unique and thought-provoking
-messages every time you use it. With each click of the "New Quote" button, a new quote will appear on the screen, keeping the
-experience fresh and exciting.
-- Share Quotes: Found a quote that resonates with you? Share it on twitter with the built-in sharing feature. Spread positivity
-and inspiration with just a few taps.
-- Easy to Use: The application is designed with simplicity in mind. Its intuitive interface ensures that users of all ages and
-technical backgrounds can enjoy the quote-generating experience without any hassle.
+- Random Quote Generation: The Colorful Quote Machine utilizes a vast collection of quotes to generate unique and thought-provoking messages every time you use it. With each click of the "New Quote" button, a new quote will appear on the screen, keeping the experience fresh and exciting.
+- Share Quotes: Found a quote that resonates with you? Share it on twitter with the built-in sharing feature. Spread positivity and inspiration with just a few taps.
+- Easy to Use: The application is designed with simplicity in mind. Its intuitive interface ensures that users of all ages and technical backgrounds can enjoy the quote-generating experience without any hassle.
 
 ## Installation
 
@@ -48,8 +42,7 @@ The Colorful Quote Machine is built using the following technologies:
 
 ## Contributing
 
-Contributions to the Colorful Quote Machine are more than welcome! If you have ideas for new features, bug fixes, or general
-improvements, please submit a pull request. Make sure to follow the project's coding style and guidelines.
+Contributions to the Colorful Quote Machine are more than welcome! If you have ideas for new features, bug fixes, or general improvements, please submit a pull request. Make sure to follow the project's coding style and guidelines.
 
 ## Deployment
 
@@ -59,3 +52,15 @@ improvements, please submit a pull request. Make sure to follow the project's co
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for more details.
+
+## Acknowledgements
+
+I would like to express my heartfelt gratitude to [freeCodeCamp](https://www.freecodecamp.org/) for their invaluable resources and contributions to the coding community. Their dedication to providing free and accessible educational content has been instrumental in my learning journey and the development of this project.
+
+Thank you, freeCodeCamp, for your dedication to education and your unwavering support of the coding community.
+
+## Contact
+
+If you have any questions, suggestions, or feedback, feel free to reach out to me at tyestanley090@gmail.com. I would be thrilled to connect with fellow developers and coding enthusiasts!
+
+Portfolio: [Link to Portfolio](https://tyestanley.com)
