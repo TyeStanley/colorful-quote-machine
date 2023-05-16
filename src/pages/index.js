@@ -31,7 +31,7 @@ export default function Home() {
       <main className="background-cover">
         <div id="quote-box" style={{backgroundColor: bgColor, boxShadow: `0 0 10px ${bgColor}`}}>
           <p id="text">&quot;{quote.quote}&quot;</p>
-          <div id="author">-{quote.author}</div>
+          <div id="author">-{quote.author} &#x1F4DD;</div>
           <div className="buttons-wrapper">
             <a href="https://twitter.com/intent/tweet" id="tweet-quote" target="_blank" rel="noreferrer">
               <button>Tweet Quote</button>
