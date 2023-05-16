@@ -1,38 +1,61 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Colorful Quote Machine
 
-## Getting Started
+The Colorful Quote Machine is a delightful application that generates and displays inspirational quotes to uplift your spirits and
+provide a daily dose of motivation. With a sleek and user-friendly interface, this quote machine offers an enjoyable experience
+for users seeking a little extra inspiration in their day.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+- Random Quote Generation: The Colorful Quote Machine utilizes a vast collection of quotes to generate unique and thought-provoking
+messages every time you use it. With each click of the "New Quote" button, a new quote will appear on the screen, keeping the
+experience fresh and exciting.
+- Share Quotes: Found a quote that resonates with you? Share it on twitter with the built-in sharing feature. Spread positivity
+and inspiration with just a few taps.
+- Easy to Use: The application is designed with simplicity in mind. Its intuitive interface ensures that users of all ages and
+technical backgrounds can enjoy the quote-generating experience without any hassle.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Installation
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+To set up the Colorful Quote Machine on your local machine, follow these steps:
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+1. Clone the repository:
+    ```
+    git clone git@github.com:TyeStanley/colorful-quote-machine.git
+    ```
+2. Navigate to the project directory:
+    ```
+    cd colorful-quote-machine
+    ```
+3. Install the dependencies:
+    ```
+    npm install
+    ```
+4. Start the application:
+    ```
+    npm run dev
+    ```
+5. Go to ```http://localhost:3000``` in your browser to view the application.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## Technologies Used
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+The Colorful Quote Machine is built using the following technologies:
 
-## Learn More
+- React
+- CSS
+- JavaScript
+- Node.js
+- Next.js
 
-To learn more about Next.js, take a look at the following resources:
+## Contributing
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Contributions to the Colorful Quote Machine are more than welcome! If you have ideas for new features, bug fixes, or general
+improvements, please submit a pull request. Make sure to follow the project's coding style and guidelines.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Deployment
 
-## Deploy on Vercel
+- GitHub Repository: [Link to GitHub Repository](https://github.com/TyeStanley/colorful-quote-machine)
+- Application Website: [Link to Application Website]()
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## License
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for more details.
