@@ -28,7 +28,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className="background-cover">
-        <div id="quote-box">
+        <div id="quote-box" style={{backgroundColor: bgColor, boxShadow: `0 0 10px ${bgColor}`}}>
           <p id="text">&quot;{quote.quote}&quot;</p>
           <div id="author">-{quote.author}</div>
           <div className="buttons-wrapper">
